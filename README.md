@@ -2,7 +2,7 @@
 
 # 1. Crear entorno 
 
-python -m venv ven
+python -m venv env
 
 # 2 Activar entorno 
 - env\Scripts\activate.bat
