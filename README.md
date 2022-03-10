@@ -4,9 +4,11 @@
 
 python -m venv ven
 
-#2. Activar entorno 
+# 2 Activar entorno 
 - env\Scripts\activate.bat
 
-#3. pip install requeriments.txt
+# 3. Instalar requerimientos
+pip install requeriments.txt
 
-#4. python app.py 
+# 4 Ejecutar el programa
+- python app.py 
