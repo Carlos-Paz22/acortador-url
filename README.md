@@ -8,7 +8,7 @@ python -m venv ven
 - env\Scripts\activate.bat
 
 # 3. Instalar requerimientos
-pip install -r requeriments.txt
+- pip install -r requeriments.txt
 
 # 4 Ejecutar el programa
 - python app.py 
