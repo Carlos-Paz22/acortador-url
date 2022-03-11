@@ -10,7 +10,7 @@ class EnlaceModel():
 
     def find_link(self,link):
         cursor = mysql.get_db().cursor()
-        cursor.execute('USE urls')
+        cursor.execute('USE p6')
         cursor.execute('SELECT name_link from links where links.linkcorto = %s ',(link))
         islink = cursor.fetchone()
         mysql.get_db().commit()
